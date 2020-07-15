@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>N26_CostTable_Warning_msg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>N26_CostTable_Warning_msg</shortDescription>
+        <value>Either Product or Country detail on Contact is missing, or an unexpected error occurred. Kindly contact your System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>N26_Cost_Table_FieldSet</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>N26_Cost_Table_FieldSet</shortDescription>
+        <value>Cost_Table</value>
+    </labels>
+    <labels>
+        <fullName>N26_Cost_Table_ObjName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>N26_Cost_Table_ObjName</shortDescription>
+        <value>Cost_Table__c</value>
+    </labels>
+</CustomLabels>

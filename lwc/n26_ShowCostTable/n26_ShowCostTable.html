@@ -1,0 +1,18 @@
+<template>
+    <lightning-card variant="Narrow"  title="Cost Table" icon-name="standard:avatar">  
+        <div class="slds-m-left_medium">
+            <!-- Display Error message-->
+        <template if:true={isError}>
+            <p>{errorMsg}</p>
+        </template> 
+        <!-- Display Cost Table Details-->
+            <lightning-record-form
+                record-id={costTableId}
+                object-api-name={label.costTableName}
+                fields ={fieldSet}
+                columns="2"
+                mode="readonly">
+            </lightning-record-form>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nikchaudhary101@gmail.com</contactEmail>
+    <label>N26</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9d8..z.hDcPLNpfMQYKgqQhQPWvD8vgy_ARP78hiM45vZdPB0ckz9VvaLDUHpX8unVUxgAZYH4c.3m1f_</consumerKey>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>
